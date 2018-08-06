@@ -1,6 +1,23 @@
 {
-  "name": "lebot-api",
   "dependencies": {
-    "koa": "^2.5.2"
+    "coffeescript": "^2.3.0",
+    "hashids": "^1.1.4",
+    "ioredis": "^3.2.2",
+    "knex": "^0.14.6",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-views": "^6.1.4",
+    "koa2": "^2.0.0-alpha.7",
+    "lodash": "^4.17.10",
+    "memory-cache": "^0.2.0",
+    "nodemon": "^1.17.3",
+    "pg": "^7.4.3",
+    "pg-native": "^3.0.0",
+    "pg-parse-float": "^0.0.1",
+    "pretty-error": "^2.1.1",
+    "slm": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "npx nodemon --watch src -e js,slm,coffee,json src/main.js 9001"
   }
 }
