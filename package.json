@@ -1,0 +1,6 @@
+{
+  "name": "lebot-api",
+  "dependencies": {
+    "koa": "^2.5.2"
+  }
+}

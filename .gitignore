@@ -1,0 +1,11 @@
+Caddyfile
+config.coffee
+dist
+
+
+__pycache__
+.DS_Store
+*.tmp
+*.swp
+*.pkl
+node_modules
