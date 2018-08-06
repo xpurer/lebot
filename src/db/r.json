@@ -1,0 +1,1 @@
+{"READER": {"KIND": {"RID": {"LAST": {"HSET": "B"}, "NAME": {"HSET": "C"}, "MONTH": {"ZSET": "E#%s"}}}, "FEED": {"ZSET": "D#%s"}}}

@@ -1,5 +1,6 @@
 Caddyfile
 config.coffee
+config.json
 dist
 
 
