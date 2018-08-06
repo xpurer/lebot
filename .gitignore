@@ -9,3 +9,4 @@ __pycache__
 *.swp
 *.pkl
 node_modules
+yarn.lock
