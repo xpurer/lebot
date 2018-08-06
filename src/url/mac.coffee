@@ -7,5 +7,5 @@ module.exports = {
 
     set:(ctx)->
         {mac,ip} = ctx.params
-        ctx.body = ip
+        ctx.body = "mac "+ip
 }

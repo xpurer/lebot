@@ -32,6 +32,7 @@ module.exports = {
     map
     get
     bind
+    route:ROUTE
 }
 # map 'room'
 # _url_post = require('./url/post')

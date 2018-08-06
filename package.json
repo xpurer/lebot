@@ -18,6 +18,6 @@
     "slm": "^2.0.0"
   },
   "scripts": {
-    "dev": "npx nodemon --watch src -e js,slm,coffee,json src/main.js 9001"
+    "dev": "npx nodemon --watch src -e js,slm,coffee,json src/main.js 5001"
   }
 }

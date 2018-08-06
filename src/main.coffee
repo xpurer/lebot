@@ -54,7 +54,8 @@ app.on(
 )
 
 run = (port)->
-    route = require('./route')
+    require('./route')
+    {route} = require('./lib/route')
     app.use(route.routes()).use(route.allowedMethods())
     app.listen(port)
     console.log "http://127.0.0.1:"+port
